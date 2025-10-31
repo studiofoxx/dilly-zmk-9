@@ -283,7 +283,7 @@
 // -------------------------------------------------------------
             bindings = <
     &kp ESC     &none       &kp ZOOMOUT &kp ZOOMIN  &none       &tog ADJST    &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &kp C_EJECT
-    &sk LCTRL   &sk LALT    &sk LGUI    &sk LSHFT   &kp CAPS    &caps_word    &sk RSHFT     &sk RGUI      &sk RALT      &sk RCTRL
+    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &caps_word   &sk RSHFT    &sk RGUI    &sk RALT  &sk RCTRL
     &kp M_UNDO  &kp M_CUT   &kp M_COPY  &trans      &kp M_PASTE &kp M_SELALL  &trans        &kp C_PREV    &kp C_PP      &kp C_NEXT
             >;
         };
